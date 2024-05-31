@@ -1,0 +1,96 @@
+https://getskillsnow.com 
+
+Brent Laster 
+
+ 
+
+Codespace  
+
+    Virtual machine with software needed 
+
+ 
+
+
+CoPilot 
+
+    Cloud based generative AI tool 
+    Code suggestions 
+    Works across a lot of languages 
+    Comment driven code 
+    Automatic test generation – suggestions on what tool to use and how to test 
+    SQL generation 
+    Regular expression generator 
+    Pattern/ mapping generation 
+    Documentation, fix issues and explain code 
+    Generate K8s manifest (Kubernetes) 
+
+
+ 
+
+Types  
+
+Inline suggestion 
+
+    Accept line 
+    Accept word 
+    Enter function based on suggestions (ctrl+enter) 
+    # create a function to do 5 unit tests of the code above 
+    # q: what does the function above do? 
+    // q: 
+    For SQL, -- define a table for student attendance (Create table), -- select/ query (for Select), -- write index to improve perf (to index a table) 
+
+Inline chat 
+
+    Chat interface (ctrl+i) 
+    /tests 
+
+Chat interface 
+
+    / commands 
+    @ commands 
+    #file  or #selection 
+
+Chat variables 
+
+    #file 
+    #selection 
+
+ 
+
+Data privacy 
+
+ 
+
+
+Copilot and sql 
+
+    '--' for generating select, create, index statements 
+
+ 
+
+Copilot and Kuberbetes (k8s) 
+
+    Inline comment you can ask – how to scale, what's the k8s api call 
+
+ 
+
+Copilot for translation 
+
+    Ex: Convert to go 
+
+ 
+
+Copilot agents (more like context) 
+
+    @workspace 
+    @terminal 
+    @vscode 
+
+ 
+
+ 
+
+gh extension install github/gh-copilot 
+gh copilot explain "ps -aux"  
+gh copilot suggest "install terraform" 
+
